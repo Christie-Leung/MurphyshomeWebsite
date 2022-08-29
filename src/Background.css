@@ -1,0 +1,29 @@
+#dark-image-container {
+    background-color: #141313;
+    background-size: 130%;
+}
+
+#background-family-img {
+    /*background: url(img/IMG_5640.jpg) center no-repeat;*/
+    position: fixed;
+    overflow: scroll;
+    background-size: 130%;
+    width: 110%;
+    height: 105%;
+    left: -8vw;
+}
+
+.cursor {
+    background: url(img/IMG_5640.jpg) center no-repeat;
+    position: fixed;
+    overflow: scroll;
+    background-size: 130%;
+    width: 110%;
+    height: 105%;
+    left: -8vw;
+
+    mask-size: 17vw;
+    mask-image: url(img/circle.png);
+    mask-position: center;
+    mask-repeat: no-repeat;
+}

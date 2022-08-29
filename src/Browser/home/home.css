@@ -1,0 +1,148 @@
+#murphyshome {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: min(10vh, 6.8vw);
+    top: min(5vh, 4vw);
+
+    font-family: 'Inter', system-ui;
+    font-style: italic;
+    font-weight: 900;
+    font-size: min(7vh, 5vw);
+    line-height: 8.5vh;
+
+    color: #293234;
+}
+
+.timeline-container {
+    position: absolute;
+    width: 91vw;
+    height: max(48vh, 30vw);
+    left: calc((100vw - 91vw) / 2);
+    top: calc((100vh - 49vh) / 2.5);
+    display: block;
+    align-items: flex-start;
+}
+
+.component-container {
+    position: relative;
+    width: 91vw;
+    height: max(45vh, 20vw);
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: hidden;
+}
+
+.timeline {
+
+}
+
+.slide-container {
+    position: relative;
+    width: 91vw;
+    height: fit-content;
+    margin-top: 1vh;
+    align-items: center;
+}
+
+.slider {
+    position: relative;
+    left: 1.5%;
+    -webkit-appearance: none; /* Override default CSS styles */
+    appearance: none;
+    width: 95%;
+    height: 0;
+    background: #49575B;
+    border: 2px dashed rgba(73, 87, 91, 0.8);
+    opacity: 0.9;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+
+}
+
+.year-text {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 3vh;
+
+    font-family: 'Inter', system-ui;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2vw;
+    line-height: 2.4vw;
+
+    color: #49575B;
+    transform: matrix(0.97, -0.33, 0.22, 0.95, 0, 0);
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 1vw; /* Set a specific slider handle width */
+    height: 1vw; /* Slider handle height */
+    border-radius: 50%;
+    background: #49575B;
+    cursor: pointer; /* Cursor on hover */
+    border-color: transparent;
+}
+
+.slider::-moz-range-thumb {
+    width: 1.5vw; /* Set a specific slider handle width */
+    height: 1.5vw; /* Slider handle height */
+    border-radius: 50%;
+    background: #49575B;
+    cursor: pointer; /* Cursor on hover */
+}
+
+.component {
+    clip-path: inset(0% 0% 0% 0% round 48px);
+    position: relative;
+    height: 100%;
+    width: 15%;
+
+    margin-right: 1vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.component:hover {
+    width: 30%;
+}
+
+#c1 {
+    background-image: url("../../img/stock1.jpg");
+}
+
+#c2 {
+    background-image: url("../../img/stock2.jpg");
+}
+
+#c3 {
+    background-image: url("../../img/stock3.jpg");
+}
+
+#c4 {
+    background-image: url("../../img/stock4.jpg");
+}
+
+
+#c5 {
+    background-image: url("../../img/stock5.jpg");
+}
+
+#c6 {
+    background-image: url("../../img/stock6.jpeg");
+}
+
+#c7 {
+    background-image: url("../../img/gojo.gif");
+}

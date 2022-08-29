@@ -1,0 +1,27 @@
+{
+  "Murphy": [
+    {
+      "name": "Murphy",
+      "birthday": "Aug 5th",
+      "description": "Infrastructure Manager"
+    }
+  ],
+  "Patty": [
+    {
+      "name": "Patty",
+      "description": "Customer Manager"
+    }
+  ],
+  "Christie": [
+    {
+      "name": "Christie",
+      "description": "University Student"
+    }
+  ],
+  "Stephanie": [
+    {
+      "name": "Stephanie",
+      "description": "High School Student"
+    }
+  ]
+}

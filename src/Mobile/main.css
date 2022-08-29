@@ -1,0 +1,120 @@
+#mobile-main-page {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #141313;
+}
+
+.header-container {
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background: rgba(22, 24, 24, 0.85);
+    box-shadow: 0 7px 13px 2px rgba(0, 0, 0, 0.25);
+    top: 0;
+    left: 0;
+}
+
+header {
+    position: relative;
+    margin-top: 1vh;
+    color: #F9F5F4;
+    font-family: 'Inter', system-ui;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 7vw;
+    line-height: 8vw;
+    margin-left: 4vw;
+    padding: 1.5vh;
+}
+
+.body-container {
+    background: linear-gradient(180deg, #666A7D 0%, rgba(1, 31, 66, 0.29) 100%);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto
+}
+
+.text-container {
+    height: fit-content;
+    width: fit-content;
+    display: block;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.person-container {
+    position: relative;
+    width: 95%;
+    height: fit-content;
+    margin: 2.5%;
+    display: flex;
+    align-items: center;
+}
+
+.circle-icon {
+    background-size: cover;
+    background-repeat: no-repeat;
+    mask-size: cover;
+    width: 40vw;
+    height: 40vw;
+    mask-image: url(../img/circle.png);
+}
+
+#Patty-icon {
+    background-position: top;
+    background-image: url(../img/patty.jpg);
+}
+
+#Murphy-icon {
+    background-position: 100% 45%;
+    background-image: url(../img/murphy.jpg);
+}
+
+#Christie-icon {
+    background-position: 5% 60%;
+    background-image: url(../img/christie.jpg);;
+}
+
+#Stephanie-icon {
+    background-position: top;
+    background-image: url(../img/stephanie.jpeg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-container {
+    background: rgba(20, 19, 19, 0.9);
+    box-shadow: -5px -1px 16px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    width: 45%;
+    height: fit-content;
+    margin-left: auto;
+    display: block;
+}
+
+.misc-text {
+    font-family: 'Saira Condensed', system-ui;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 100%;
+
+    letter-spacing: 0.37em;
+    background-color: transparent;
+    color: #F9F5F4;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    padding: 3%;
+    width: fit-content;
+}
+
+.misc-text:hover {
+    font-size: 3.4vw;
+    color: white;
+}

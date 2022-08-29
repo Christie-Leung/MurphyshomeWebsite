@@ -1,0 +1,188 @@
+#christie-name {
+    position: relative;
+    font-weight: 900;
+    font-size: min(5vw, 7vh);
+    line-height: 5.5vw;
+
+    text-shadow: 7px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#christie-picture {
+    position: relative;
+    display: inline-block;
+
+    background-image: url("../../../img/pfp4.jpg");
+    background-repeat: no-repeat;
+    background-position: 45%;
+    background-size: 50vh;
+    mask-image: url("../../../img/circle.png");
+    mask-size: 30vh;
+    mask-position: center;
+    mask-repeat: no-repeat;
+
+    filter: drop-shadow(8px 11px 16px rgba(0, 0, 0, 0.25));
+
+    width: 30vh;
+    height: 30vh;
+}
+
+#christie-container {
+    left: 0;
+    top: 0;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.connect-button-container {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    height: fit-content;
+    width: 100%;
+    position: static;
+}
+
+.icons {
+    background-size: cover;
+    background-color: #F9F5F4;
+    width: 100%;
+    height: 4vh;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}
+
+#a-icons {
+    width: 100%;
+    height: 4vh;
+    margin-top: 2%;
+    margin-right: 12%;
+    padding: 0;
+}
+
+#insta-icon {
+    -webkit-mask: url('../../../img/instagram.png') no-repeat center;
+    mask: url('../../../img/instagram.png') no-repeat center;
+    -webkit-mask-size: min(4vh, 3vw);
+    mask-size: min(4vh, 3vw);
+}
+
+#linkedin-icon {
+    -webkit-mask: url('../../../img/linkedin.png') no-repeat center;
+    mask: url('../../../img/linkedin.png') no-repeat center;
+    -webkit-mask-size: min(4vh, 3vw);
+    mask-size: min(4vh, 3vw);
+}
+
+#github-icon {
+    -webkit-mask: url('../../../img/github.png') no-repeat center;
+    mask: url('../../../img/github.png') no-repeat center;
+    -webkit-mask-size: min(4vh, 3vw);
+    mask-size: min(4vh, 3vw);
+}
+
+#discord-icon {
+    -webkit-mask: url('../../../img/discord.png') no-repeat center;
+    mask: url('../../../img/discord.png') no-repeat center;
+    -webkit-mask-size: min(4vh, 3vw);
+    mask-size: min(4vh, 3vw);
+}
+
+#spotify-icon {
+    -webkit-mask: url('../../../img/spotify.png') no-repeat center;
+    mask: url('../../../img/spotify.png') no-repeat center;
+    -webkit-mask-size: min(4vh, 3vw);
+    mask-size: min(4vh, 3vw);
+}
+
+.nav-button-active {
+    font-family: 'Inter', system-ui;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8vw;
+    line-height: 1vw;
+    letter-spacing: 0.165em;
+    margin-right: 5%;
+
+    color: rgba(249, 245, 244);
+}
+
+.nav-button {
+    font-family: 'Inter', system-ui;
+    font-style: normal;
+    font-weight: 300;
+    font-size: min(1.8vw, 3vh);
+    line-height: 1vw;
+    letter-spacing: 0.165em;
+    margin-right: 5%;
+
+    color: rgba(249, 245, 244, 0.4);
+}
+
+.nav-button:hover {
+    font-size: min(1.9vw, 3.1vh);
+    color: rgba(249, 245, 244);
+}
+
+#half-header-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: min(4vw, 8vh);
+    width: 100%;
+}
+
+.navbar {
+    position: relative;
+    height: fit-content;
+    margin-top: 5%;
+}
+
+#timeline-container {
+    display: inline-flex;
+    position: relative;
+}
+
+.month-year {
+    font-family: 'Inter', system-ui;
+    font-style: normal;
+    font-weight: 100;
+    font-size: max(2vw, 2.5vh);
+    line-height: 39px;
+    letter-spacing: 0.165em;
+
+    color: #F9F5F4;
+}
+
+.year-descriptions {
+    font-family: 'Inter', system-ui;
+    font-style: normal;
+    font-weight: 200;
+    font-size: max(1.2vw, 1.5vh);
+    line-height: 19px;
+    letter-spacing: 0.165em;
+    height: fit-content;
+
+    margin-top: 1%;
+    padding-top: 0;
+
+    color: #F9F5F4;
+}
+
+#transparent {
+    color: transparent;
+}
+
+.hover-description-bar {
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6%;
+
+    background: #D9D9D9;
+    color: #141313;
+    border-radius: 9px
+}

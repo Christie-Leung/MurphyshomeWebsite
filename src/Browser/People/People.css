@@ -1,0 +1,60 @@
+.icon-identifier {
+    position: absolute;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 50%;
+    background: transparent;
+}
+
+#murphy-identifier {
+    left: calc(50% - 3.2vw - 28%);
+    top: calc(50% - 8.5vw - 12vw);
+}
+
+#christie-identifier {
+    left: calc(50% - 3.2vw - 11%);
+    top: calc(50% - 8.5vw - 5vw);
+}
+
+#patty-identifier {
+    left: calc(50% - 3.2vw + 16%);
+    top: calc(50% - 8.5vw - 3vw);
+}
+
+#stephanie-identifier {
+    left: calc(50% - 3.2vw + 31%);
+    top: calc(50% - 8.5vw - 5vw);
+}
+
+.popup-name-container {
+    position: relative;
+    width: min(50vw, 1000px);
+    z-index: 2;
+}
+
+#left-popup {
+    left: 110%;
+}
+
+#right-popup {
+    left: -300%;
+}
+
+.name {
+    font-family: 'Inter', system-ui;
+    font-weight: bold;
+    font-size: min(3vw, 50px);
+    color: #ffffff;
+    position: inherit;
+}
+
+.description {
+    font-family: 'Inter', system-ui;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: min(2vw, 30px);
+    color: #dadada;
+    position: inherit;
+}
+
+
